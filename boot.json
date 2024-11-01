@@ -1,0 +1,31 @@
+{
+  "name": "CheckGameVersionCot",
+  "alias": [
+    "CheckGameVersion"
+  ],
+  "version": "2.2.1",
+  "styleFileList": [
+  ],
+  "scriptFileList_earlyload": [
+  ],
+  "scriptFileList_inject_early": [
+    "dist/CheckGameVersionCot.mod.js"
+  ],
+  "scriptFileList_preload": [
+  ],
+  "scriptFileList": [
+  ],
+  "tweeFileList": [
+  ],
+  "imgFileList": [
+  ],
+  "additionFile": [
+    "README.md"
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "ModLoader",
+      "version": "^1.5.3||^2.0.0"
+    }
+  ]
+}
