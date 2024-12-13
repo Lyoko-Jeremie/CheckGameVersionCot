@@ -40,7 +40,7 @@ export class CheckGameVersion implements Sc2EventTracerCallback {
         console.log('[CheckGameVersionCot] checkGameVersion() gameVersionString:', this.gameVersionString);
         this.log.log(`[CheckGameVersionCot] checkGameVersion() gameVersionString:[${this.gameVersionString}]`);
         console.log('[CheckGameVersionCot] checkGameVersion() gameVersionString:', this.gSC2DataManager.getDependenceChecker().getInfiniteSemVerApi().parseVersion(this.gameVersionString));
-        this.log.log(`[CheckGameVersionCot] checkGameVersion() gameVersionString:${this.gSC2DataManager.getDependenceChecker().getInfiniteSemVerApi().parseVersion(this.gameVersionString)}`);
+        this.log.log(`[CheckGameVersionCot] checkGameVersion() gameVersionString:${this.gSC2DataManager.getDependenceChecker().getInfiniteSemVerApi().parseVersion(this.gameVersionString).version.version}`);
     }
 
     // whenSC2StoryReady() {
